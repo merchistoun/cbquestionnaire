@@ -1,0 +1,30 @@
+@import '../../styles.scss';
+
+.header {
+  font-size: 1.0rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+
+.requiredLabel {
+  color: $color-text-required;
+  margin-left: 1rem;
+  font-style: italic;
+  font-size: 0.8rem;
+}
+
+.questionNumber {
+  color: $color-text-question-number;
+  font-style: italic;
+}
+
+.questionText {
+  font-size: 1.0rem;
+}

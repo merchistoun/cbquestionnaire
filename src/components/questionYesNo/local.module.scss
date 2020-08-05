@@ -1,0 +1,17 @@
+@import '../../styles.scss';
+
+.yesNoContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  
+  .button {
+    margin-right: 1rem;
+    min-width: 8rem;
+  }
+  
+  span {
+    font-family: $font-family;
+  }
+}

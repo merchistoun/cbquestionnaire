@@ -1,0 +1,13 @@
+@import '../../styles.scss';
+
+
+.radioContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  
+  span {
+    font-family: $font-family;
+  }
+}

@@ -1,0 +1,11 @@
+@import '../../styles.scss';
+
+.input {
+  margin-top: 2.1rem;
+  display: flex;
+  flex-grow: 1;
+}
+
+.required {
+  border: 1px solid red;
+}

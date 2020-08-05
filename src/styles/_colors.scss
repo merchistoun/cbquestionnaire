@@ -1,0 +1,161 @@
+$background: #f0f0f0;
+$color-text-normal: #202020;
+$color-text-question-number: #a0a0a0;
+$color-text-emphasis: #101010;
+$color-text-input: #202080;
+$color-text-required: #800000;
+$color-text-brand-blue: rgb(40, 116, 230);
+$color-primary-light: green;
+$color-primary-dark: yellow;
+
+
+// NEW COLOURS
+$theme-mono-1: #ffffff;
+$theme-mono-2: #f2f2f2;
+$theme-mono-3: #d7d7d7;
+$theme-mono-4: #c9c9c9;
+$theme-mono-5: #999999;
+$theme-mono-6: #666666;
+$theme-mono-7: #333333;
+
+$theme-color-1: #1796c6;
+$theme-color-2: #006496;
+$theme-color-3: #42bfcf;
+$theme-color-4: #0f2b4a;
+$theme-color-5: #66cc00;
+$theme-color-6: #5cb800;
+$theme-color-7: #ebf5fa;
+$theme-color-8: #ccedfc;
+$theme-color-9: #f0bf00;
+$theme-color-10: #2399c6;
+
+$blue: #2399c6;
+$dark-blue: #003698;
+$purple: #950498;
+$green: #2fcc38;
+$red: #c90000;
+$orange: #fd9605;
+$yellow: #fecb10;
+$grey: #666666;
+$black: #000000;
+
+// header bar + nav
+$header-bar-fill-color: $theme-color-4;
+$header-bar-text-color: $theme-mono-1;
+
+$header-bar-nav-tab-on-background-color: $theme-mono-1;
+$header-bar-nav-tab-on-icon-color: $theme-color-1;
+$header-bar-nav-tab-on-text-color: $theme-mono-7;
+
+$header-bar-nav-tab-hover-background-color: $theme-color-2;
+$header-bar-nav-tab-hover-icon-color: $theme-mono-1;
+$header-bar-nav-tab-hover-text-color: $theme-mono-1;
+
+$header-bar-nav-tab-off-background-color: $theme-color-1;
+$header-bar-nav-tab-off-icon-color: $theme-mono-1;
+$header-bar-nav-tab-off-text-color: $theme-mono-1;
+
+// form components
+$disabled-background-color: $theme-mono-2;
+$disabled-border-color: $theme-mono-3;
+$disabled-text-color: $theme-mono-5;
+
+$empty-inactive-background-color: $theme-mono-1;
+$empty-inactive-border-color: $theme-color-3;
+$empty-inactive-icon-color: $theme-color-1;
+$empty-inactive-text-color: $theme-mono-7;
+
+$empty-hover-background-color: $theme-mono-1;
+$empty-hover-border-color: $theme-color-2;
+$empty-hover-icon-color: $theme-color-2;
+$empty-hover-text-color: $theme-mono-7;
+
+$filled-inactive-background-color: $theme-color-7;
+$filled-inactive-border-color: $theme-color-3;
+$filled-inactive-icon-color: $theme-color-1;
+$filled-inactive-text-color: $theme-mono-7;
+
+$filled-hover-background-color: $theme-color-8;
+$filled-hover-border-color: $theme-color-2;
+$filled-hover-icon-color: $theme-color-2;
+$filled-hover-text-color: $theme-mono-7;
+
+// input fields
+$input-field-disabled-background-color: $disabled-background-color;
+$input-field-disabled-border-color: $disabled-border-color;
+$input-field-disabled-text-color: $disabled-text-color;
+
+$input-field-empty-inactive-background-color: $empty-inactive-background-color;
+$input-field-empty-inactive-border-color: $empty-inactive-border-color;
+$input-field-empty-inactive-icon-color: $empty-inactive-icon-color;
+$input-field-empty-inactive-text-color: $empty-inactive-text-color;
+
+$input-field-empty-hover-background-color: $empty-hover-background-color;
+$input-field-empty-hover-border-color: $empty-hover-border-color;
+$input-field-empty-hover-icon-color: $empty-inactive-icon-color;
+$input-field-empty-hover-text-color: $empty-hover-text-color;
+
+$input-field-filled-inactive-background-color: $filled-inactive-background-color;
+$input-field-filled-inactive-border-color: $filled-inactive-border-color;
+$input-field-filled-inactive-icon-color: $filled-inactive-icon-color;
+$input-field-filled-inactive-text-color: $filled-inactive-text-color;
+
+$input-field-filled-hover-background-color: $filled-hover-background-color;
+$input-field-filled-hover-border-color: $filled-hover-border-color;
+$input-field-filled-hover-icon-color: $filled-hover-icon-color;
+$input-field-filled-hover-text-color: $filled-hover-text-color;
+
+// toggle switch
+$toggle-switch-disc-color: $theme-mono-1;
+$toggle-switch-on-inactive-background-color: $theme-color-5;
+$toggle-switch-off-inactive-background-color: $disabled-border-color;
+$toggle-switch-on-hover-background-color: $theme-color-6;
+$toggle-switch-off-hover-backgorund-color: $theme-mono-4;
+
+// action text fields
+$action-text-field-inactive-background-color: $filled-inactive-background-color;
+$action-text-field-inactive-text-color: $filled-inactive-text-color;
+$action-text-field-hover-background-color: $filled-hover-background-color;
+$action-text-field-hover-text-color: $filled-hover-text-color;
+
+// repeat buttons
+$repeat-button-inactive-background-color: $theme-color-1;
+$repeat-button-inactive-text-color: $theme-mono-1;
+$repeat-button-hover-background-color: $theme-color-2;
+$repeat-button-hover-text-color: $theme-mono-1;
+
+// drop-down
+$drop-down-empty-inactive-background-color: $empty-inactive-background-color;
+$drop-down-empty-inactive-border-color: $empty-inactive-border-color;
+
+$drop-down-filled-inactive-background-color: $filled-inactive-background-color;
+$drop-down-filled-inactive-border-color: $filled-inactive-border-color;
+$drop-down-filled-inactive-text-color: $filled-inactive-text-color;
+
+$drop-down-filled-hover-background-color: $filled-hover-background-color;
+$drop-down-filled-hover-border-color: $filled-hover-border-color;
+$drop-down-filled-hover-text-color: $filled-hover-text-color;
+
+// @TODO - drop down pop up panel
+
+// notes
+$notes-empty-inactive-background-color: $empty-inactive-background-color;
+$notes-empty-inactive-border-color: $empty-inactive-border-color;
+
+$notes-filled-inactive-background-color: $filled-inactive-background-color;
+$notes-filled-inactive-border-color: $filled-inactive-border-color;
+$notes-filled-inactive-text-color: $filled-inactive-text-color;
+
+$notes-filled-hover-background-color: $filled-hover-background-color;
+$notes-filled-hover-border-color: $filled-hover-border-color;
+$notes-filled-hover-text-color: $filled-hover-text-color;
+
+// buttons
+$cancel-button-background-color: $theme-mono-6;
+$cancel-button-text-color: $theme-mono-1;
+
+$primary-button-background-color: $theme-color-10;
+$primary-button-text-color: $theme-mono-1;
+
+$book-button-background-color: $theme-color-9;
+$book-button-text-color: $theme-mono-7;
